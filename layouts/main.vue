@@ -4,44 +4,17 @@
   <main>
     <div class="top_banner">
       <picture class="background_box">
-        <img src="~/assets/images/background.png" alt="메인 배경사진" />
+        <img src="~/assets/images/background2.png" alt="메인 배경사진" />
       </picture>
-      <div class="banner_icons">
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/html5.svg" alt="" />
-          </picture>
-          <p>HTML5</p>
-        </div>
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/css3.svg" alt="" />
-          </picture>
-          <p>CSS3</p>
-        </div>
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/javascript.svg" alt="" />
-          </picture>
-          <p>Javascript</p>
-        </div>
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/typescript.svg" alt="" />
-          </picture>
-          <p>Typescript</p>
-        </div>
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/vue.svg" alt="" />
-          </picture>
-          <p>Vue.js</p>
-        </div>
-        <div class="items">
-          <picture class="icons">
-            <img src="~/assets/images/nuxt.svg" alt="" />
-          </picture>
-          <p>Nuxt</p>
+      <div class="headers">
+        <h1>POSSIBLE SKILLS</h1>
+        <div class="possible">
+          <p class="items html">HTML5</p>
+          <p class="items css">CSS3</p>
+          <p class="items javascript">Javascript</p>
+          <p class="items typescript">Typescript</p>
+          <p class="items vue">Vue.js</p>
+          <p class="items nuxt">Nuxt</p>
         </div>
       </div>
     </div>
@@ -64,31 +37,56 @@ main {
       display: block;
     }
   }
-  .banner_icons {
+  .headers  {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 800px;
-    z-index: 2;
     top: 50%;
-    transform: translateY(-50%);
     left: 0;
     right: 0;
-    margin: 0 auto;
-    .items {
+    transform: translateY(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    h1 {
+      font-size: 100px;
+      color: white;
+    }
+    .possible {
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      row-gap: 8px;
-      font-size: 20px;
-      color: white;
-      font-weight: 500;
-      .icons {
-        display: block;
-        width: 80px;
-        height: 80px;
+      column-gap: 26px;
+      .items {
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 600;
+        &.html {
+          color: #E44D26;
+          border: 1px solid #E44D26;
+        }
+        &.css {
+          color: #264DE4;
+          border: 1px solid #264DE4;
+        }
+        &.javascript {
+          color: #F7DF1E;
+          border: 1px solid #F7DF1E;
+        }
+        &.typescript {
+          color: #3179C7;
+          border: 1px solid #3179C7;
+        }
+        &.vue {
+          color: #41B883;
+          border: 1px solid #41B883;
+        }
+        &.nuxt {
+          color: #41B883;
+          border: 1px solid #41B883;
+        }
       }
     }
   }

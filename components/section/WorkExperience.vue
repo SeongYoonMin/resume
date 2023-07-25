@@ -5,9 +5,8 @@ interface ImageType {
   src: string;
   overSrc: string;
   overState: boolean;
-}
-[];
-const imageList = ref<ImageType>([
+};
+const imageList = ref<ImageType[]>([
   {
     id: 0,
     name: "솥밥전문점 아뜨뜨",

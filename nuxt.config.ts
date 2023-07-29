@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   app: {
-    baseURL: "/resume/",
     head: {
       htmlAttrs: {
         lang: "kr",

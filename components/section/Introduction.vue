@@ -22,7 +22,11 @@
 <style lang="scss" scoped>
 .introduction {
   padding: 120px 0;
+  box-sizing: border-box;
   background-color: #2539f0;
+  @media screen and (max-width:768px) {
+    padding: 40px 20px;
+  }
   .intro {
     display: flex;
     flex-direction: column;
@@ -33,12 +37,13 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    word-break: keep-all;
     .title {
-      font-size: 44px;
+      font-size: 32px;
       font-weight: 500;
     }
     .desc {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 }

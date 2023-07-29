@@ -106,6 +106,11 @@ const usePopup = usePopupStore();
 <style lang="scss" scoped>
 .work_experience {
   padding: 120px 0;
+  box-sizing: border-box;
+  background-color: #3A3A3A;
+  @media screen and (max-width:768px) {
+    padding: 40px 20px 80px;
+  }
   .exp {
     max-width: 800px;
     width: 100%;
@@ -115,7 +120,9 @@ const usePopup = usePopupStore();
     justify-content: center;
     row-gap: 40px;
     margin: 0 auto;
+    word-break: keep-all;
     .title {
+      color: white;
       font-size: 44px;
       font-weight: 500;
     }

@@ -25,8 +25,20 @@
   align-items: flex-start;
   justify-content: center;
   column-gap: 120px;
+  box-sizing: border-box;
+  background-color: #3a3a3a;
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
   .who {
     font-size: 44px;
+    color: white;
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+    }
     strong {
       color: #2539f0;
       font-weight: 600;
@@ -45,12 +57,16 @@
       color: #2e2e2e;
       font-weight: 500;
       font-size: 20px;
+      color: white;
       border-bottom: 1px solid #d7d7d7;
       transition: 0.3s all;
       &:hover {
         color: #2539f0;
         font-weight: 700;
         border-color: #2539f0;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
       }
     }
   }

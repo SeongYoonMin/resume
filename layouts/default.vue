@@ -36,7 +36,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    background-image: url('~/assets/images/background2.png');
+    background-image: url('~/assets/images/main_background.png');
   }
   .headers {
     position: absolute;

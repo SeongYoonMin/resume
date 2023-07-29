@@ -170,4 +170,3 @@ const usePopup = usePopupStore();
   }
 }
 </style>
-stores/popup

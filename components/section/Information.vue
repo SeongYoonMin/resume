@@ -52,6 +52,7 @@
     row-gap: 10px;
     a {
       width: 100%;
+      box-sizing:border-box;
       padding: 10px 20px;
       display: block;
       color: #2e2e2e;

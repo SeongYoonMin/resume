@@ -22,7 +22,7 @@ const usePopupStores = usePopupStore();
       </div>
       <div class="desc">
         <p class="name">사이트이름. 무진스튜디오</p>
-        <p class="date">작업일자. 2023-00-00</p>
+        <p class="date">작업일자. 2023-01 ~ 2023-02</p>
         <div class="skill_list">
           <span>기술스택.</span>
           <span style="color: #41b883">Vue.js</span>

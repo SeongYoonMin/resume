@@ -107,7 +107,7 @@ const usePopup = usePopupStore();
 .work_experience {
   padding: 120px 0;
   box-sizing: border-box;
-  background-color: #3A3A3A;
+  background-color: #1E1E1E;
   @media screen and (max-width:768px) {
     padding: 40px 20px 80px;
   }

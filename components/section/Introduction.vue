@@ -39,11 +39,17 @@
     margin: 0 auto;
     word-break: keep-all;
     .title {
-      font-size: 32px;
+      font-size: 44px;
       font-weight: 500;
+      @media screen and (max-width: 768px) {
+        font-size: 32px;
+      }
     }
     .desc {
-      font-size: 16px;
+      font-size: 18px;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
     }
   }
 }

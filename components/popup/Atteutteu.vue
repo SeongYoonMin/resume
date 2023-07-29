@@ -23,7 +23,7 @@ const usePopupStores = usePopupStore();
       </div>
       <div class="desc">
         <p class="name">사이트이름. 솥밥전문점 아뜨뜨</p>
-        <p class="date">작업일자. 2023-00-00</p>
+        <p class="date">작업일자. 2022-10</p>
         <div class="skill_list">
           <span>기술스택.</span>
           <span style="color: #41B883">Vue.js</span>

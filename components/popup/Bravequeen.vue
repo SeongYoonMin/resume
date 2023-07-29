@@ -22,7 +22,7 @@ const usePopupStores = usePopupStore();
       </div>
       <div class="desc">
         <p class="name">사이트이름. 브레이브퀸</p>
-        <p class="date">작업일자. 2023-00-00</p>
+        <p class="date">작업일자. 2022-12 ~ 2023-02</p>
         <div class="skill_list">
           <span>기술스택.</span>
           <span style="color: #41b883">Vue.js</span>
@@ -38,11 +38,11 @@ const usePopupStores = usePopupStore();
         <div class="list">
           <p>1. 피그마를 통해 디자인팀과 협업하여 페이지(CAFE24) 퍼블리싱</p>
           <p>
-            3. CAFE24 API로부터의 WebHook을 이용하여 상품 구매시 해당 날짜 재고
+            2. CAFE24 API로부터의 WebHook을 이용하여 상품 구매시 해당 날짜 재고
             차감 기능 및 페이지 구현
           </p>
           <p>
-            4. DB에 저장된 해당 날짜 재고 관리 기능<br />(재고 소진/초과 시 구매
+            3. DB에 저장된 해당 날짜 재고 관리 기능<br />(재고 소진/초과 시 구매
             불가, 특정 날짜 재고 처리기능)
           </p>
         </div>

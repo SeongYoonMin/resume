@@ -26,7 +26,7 @@
   justify-content: center;
   column-gap: 120px;
   box-sizing: border-box;
-  background-color: #3a3a3a;
+  background-color: #1E1E1E;
   @media screen and (max-width: 768px) {
     padding: 40px 20px;
     flex-direction: column;
